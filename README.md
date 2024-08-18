@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="legion-5800H-RTX3060-Hackintosh/images/legion.png" width="720"/>
+  <img src="images/legion.png" width="720"/>
 </p>
 <h4 align="center">OpenCore config for Hackintosh on Lenovo Legion 5 17ACH6H</h4>
 
@@ -151,9 +151,9 @@ alcid=21 | Layout ID for AppleALC kext
 
 
 ## Screenshots
-<img src="legion-5800H-RTX3060-Hackintosh/images/screenshot-1.png"/>
-<img src="legion-5800H-RTX3060-Hackintosh/images/screenshot-2.png"/> 
-<img src="legion-5800H-RTX3060-Hackintosh/images/screenshot-3.png"/> 
+<img src="images/screenshot-1.png"/>
+<img src="images/screenshot-2.png"/> 
+<img src="images/screenshot-3.png"/> 
 
 
 ## Installation Steps
