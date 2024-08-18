@@ -79,7 +79,7 @@
 
 | Type | Notes | Status |
 | --- | --- | --- |
-| dGPU | Apple dropped support for NVIDIA GPUs | ❌
+| dGPU | Apple dropped support for NVIDIA GPUs (you will have to turn hardware acceleration off) | ❌
 | HDMI | Connected to dGPU | ❌
 | Touchpad | I tried various configurations of VoodooPS2Controller, VoodooI2C, VoodooI2CHID, VoodooRMI, VoodooSMBus, VoodooI2CSynaptics and VoodooInput kexts but I didn't manage to get the touchpad to work. Any help would be much appreciated. | ❌
 | Sleep / Wake |  | ❌
