@@ -8,12 +8,8 @@
 <h4 align="center">OpenCore config for Hackintosh on Lenovo Legion 5 17ACH6H</h4>
 
 <p align="center">
-  <a href="https://www.apple.com/macos/sonoma-preview/">
     <img src="https://img.shields.io/badge/macOS-Sonoma 14.5-emerald"/> 
-  </a>
-  <a href="https://github.com/acidanthera/OpenCorePkg/releases">
     <img src="https://img.shields.io/badge/OpenCore-1.0.1-blue"/>
-  </a>
 </p>
 
 
