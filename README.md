@@ -62,6 +62,7 @@
 | Brightness Control | With [BrightnessKeys kext](https://github.com/acidanthera/BrightnessKeys) | ✅
 | USB | With [GUX-RyzenXHCIFix.kext](https://github.com/RattletraPM/GUX-RyzenXHCIFix) and [USBMap.kext](https://github.com/corpnewt/USBMap)| ✅
 | Keyboard | With [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2) | ✅
+| Touchpad | Thanks [MinecraftNerrd1337]([https://github.com/acidanthera/VoodooPS2](https://github.com/MinecraftNerrd1337)) for the touchpad fix (remove SSDT-HPET) | ✅
 | Audio | With [AppleALC.kext](https://github.com/acidanthera/AppleALC) and boot argument "alcid=21" | ✅
 | P2 Mic | Working with AppleALC 1.8.8 | ✅
 | Camera | It just worked lol | ✅
@@ -81,7 +82,6 @@
 | --- | --- | --- |
 | dGPU | Apple dropped support for NVIDIA GPUs (you will have to turn hardware acceleration off) | ❌
 | HDMI | Connected to dGPU | ❌
-| Touchpad | I tried various configurations of VoodooPS2Controller, VoodooI2C, VoodooI2CHID, VoodooRMI, VoodooSMBus, VoodooI2CSynaptics and VoodooInput kexts but I didn't manage to get the touchpad to work. Any help would be much appreciated. | ❌
 | Sleep / Wake |  | ❌
 
 
@@ -132,7 +132,6 @@ Created with [SSDTTime](https://github.com/corpnewt/SSDTTime) on Windows 11
 | Table | Description |
 | --- | --- |
 | SSDT-EC | Adds a fake Embedded Controller device |
-| SSDT-HPET | Patches out IRQ conflicts |
 | SSDT-PLUG-ALT | Fixes CPU definitions |
 | SSDT-PNLF | Sets up a PNLF device for laptop backlight control |
 | SSDT-USBX | Enables USB Power Management |
