@@ -70,7 +70,7 @@
 | Intel Wi-Fi | With [itlwm](https://github.com/OpenIntelWireless/itlwm) kexts | ✅
 | Bluetooth | With [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) kexts | ✅
 | Battery Status | With [SMCBatteryManager.kext](https://github.com/acidanthera/VirtualSMC) | ✅
-| AppleTV + DRM | Works with CFG_LINK_FIXED_MAP=1 | ✅
+| AppleTV + DRM | With CFG_LINK_FIXED_MAP=1 | ✅
 | iServices | AppStore, Messages, FaceTime, iCloud | ✅
 | Shutdown / Reboot | | ✅
 
@@ -239,7 +239,7 @@ To enable booting from the SSD without needing the USB drive, use MountEFI to mo
 *   [Laura Müller](https://github.com/Mieze) for [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 *   [osy](https://github.com/osy) for [USBWakeFixup.kext](https://github.com/osy/USBWakeFixup)
 *   [VoodooI2C](https://github.com/VoodooI2C) for [VoodooI2C.kext](https://github.com/VoodooI2C/VoodooI2C)
-*   [MinecraftNerrd1337](https://github.com/MinecraftNerrd1337) for the [touchpad fix](https://github.com/danielrumata/Legion-5800H-Hackintosh/issues/1#issuecomment-2395105467)
+*   [MinecraftNerrd1337](https://github.com/MinecraftNerrd1337) for [touchpad fix](https://github.com/danielrumata/Legion-5800H-Hackintosh/issues/1#issuecomment-2395105467)
 
 
 
