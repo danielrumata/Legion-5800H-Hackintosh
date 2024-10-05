@@ -62,7 +62,7 @@
 | Brightness Control | With [BrightnessKeys kext](https://github.com/acidanthera/BrightnessKeys) | ✅
 | USB | With [GUX-RyzenXHCIFix.kext](https://github.com/RattletraPM/GUX-RyzenXHCIFix) and [USBMap.kext](https://github.com/corpnewt/USBMap)| ✅
 | Keyboard | With [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2) | ✅
-| Touchpad | Thanks [MinecraftNerrd1337]([https://github.com/acidanthera/VoodooPS2](https://github.com/MinecraftNerrd1337)) for the touchpad fix (remove SSDT-HPET) | ✅
+| Touchpad | Thanks [MinecraftNerrd1337](https://github.com/MinecraftNerrd1337) for the touchpad fix (remove SSDT-HPET) | ✅
 | Audio | With [AppleALC.kext](https://github.com/acidanthera/AppleALC) and boot argument "alcid=21" | ✅
 | P2 Mic | Working with AppleALC 1.8.8 | ✅
 | Camera | It just worked lol | ✅
