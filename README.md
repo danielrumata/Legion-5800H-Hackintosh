@@ -120,8 +120,9 @@
 | [USBMap.kext](https://github.com/corpnewt/USBMap "USBMap") | Script for mapping USB ports in macOS and creating a custom injector kext |
 | [USBWakeFixup](https://github.com/osy/USBWakeFixup) | Fixes USB wake up issue on macOS |
 | [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) | Advanced Apple SMC emulator in the kernel |
-| [VoodooI2C.kext](https://chefkissinc.github.io/Extras/Kexts/VoodooI2C.zip) | Enables keyboard |
-| [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2) | Enables keyboard |
+| [VoodooI2C.kext](https://chefkissinc.github.io/Extras/Kexts/VoodooI2C.zip) | Enables keyboard and touchpad |
+| [VoodooI2CHID.kext](https://chefkissinc.github.io/Extras/Kexts/VoodooI2C.zip) | Enables keyboard and touchpad |
+| [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2) | Enables keyboard and touchpad |
 
 
 
@@ -237,7 +238,8 @@ To enable booting from the SSD without needing the USB drive, use MountEFI to mo
 *   [Alex James](https://github.com/al3xtjames) for [NoTouchID.kext](https://github.com/al3xtjames/NoTouchID)
 *   [Laura Müller](https://github.com/Mieze) for [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 *   [osy](https://github.com/osy) for [USBWakeFixup.kext](https://github.com/osy/USBWakeFixup)
-*   [VoodooI2C](https://github.com/VoodooI2C) for [VoodooI2C.kext](https://github.com/VoodooI2C/VoodooI2C) 
+*   [VoodooI2C](https://github.com/VoodooI2C) for [VoodooI2C.kext](https://github.com/VoodooI2C/VoodooI2C)
+*   [MinecraftNerrd1337](https://github.com/MinecraftNerrd1337) for the [touchpad fix](https://github.com/danielrumata/Legion-5800H-Hackintosh/issues/1#issuecomment-2395105467)
 
 
 
