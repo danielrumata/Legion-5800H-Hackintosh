@@ -62,7 +62,7 @@
 | Brightness Control | With [BrightnessKeys kext](https://github.com/acidanthera/BrightnessKeys) | ✅
 | USB | With [GUX-RyzenXHCIFix.kext](https://github.com/RattletraPM/GUX-RyzenXHCIFix) and [USBMap.kext](https://github.com/corpnewt/USBMap)| ✅
 | Keyboard | With [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2) | ✅
-| Touchpad | With [touchpad fix](https://github.com/danielrumata/Legion-5800H-Hackintosh/issues/1#issuecomment-2395105467) from [MinecraftNerrd1337](https://github.com/MinecraftNerrd1337) | ✅
+| Touchpad | With [Touchpad Fix](https://github.com/danielrumata/Legion-5800H-Hackintosh/issues/1#issuecomment-2395105467) from [MinecraftNerrd1337](https://github.com/MinecraftNerrd1337) | ✅
 | Audio | With [AppleALC.kext](https://github.com/acidanthera/AppleALC) and boot argument "alcid=21" | ✅
 | P2 Mic | Working with AppleALC 1.8.8 | ✅
 | Camera | It just worked lol | ✅
@@ -239,7 +239,7 @@ To enable booting from the SSD without needing the USB drive, use MountEFI to mo
 *   [Laura Müller](https://github.com/Mieze) for [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 *   [osy](https://github.com/osy) for [USBWakeFixup.kext](https://github.com/osy/USBWakeFixup)
 *   [VoodooI2C](https://github.com/VoodooI2C) for [VoodooI2C.kext](https://github.com/VoodooI2C/VoodooI2C)
-*   [MinecraftNerrd1337](https://github.com/MinecraftNerrd1337) for [touchpad fix](https://github.com/danielrumata/Legion-5800H-Hackintosh/issues/1#issuecomment-2395105467)
+*   [MinecraftNerrd1337](https://github.com/MinecraftNerrd1337) for [Touchpad Fix](https://github.com/danielrumata/Legion-5800H-Hackintosh/issues/1#issuecomment-2395105467)
 
 
 
