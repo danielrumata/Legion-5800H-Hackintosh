@@ -133,6 +133,7 @@ Created with [SSDTTime](https://github.com/corpnewt/SSDTTime) on Windows 11
 | Table | Description |
 | --- | --- |
 | SSDT-EC | Adds a fake Embedded Controller device |
+| SSDT-HPET | Patches out IRQ conflicts (removed afterwards to fix the touchpad) |
 | SSDT-PLUG-ALT | Fixes CPU definitions |
 | SSDT-PNLF | Sets up a PNLF device for laptop backlight control |
 | SSDT-USBX | Enables USB Power Management |
