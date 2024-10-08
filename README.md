@@ -24,7 +24,6 @@
 - [SSDTs Used](#ssdts-used)
 - [Boot Arguments Used](#boot-arguments-used)
 - [Screenshots](#screenshots)
-- [Installation Steps](#installation-steps)
 - [Useful Software](#useful-software)
 - [Credits](#credits)
 - [Legal Disclaimer](#legal-disclaimer)
@@ -157,54 +156,6 @@ alcid=21 | Layout ID for AppleALC kext
 <img src="images/screenshot-3.png"/> 
 
 
-## Installation Steps
-
-### 1. Download OpenCore Config
-Start by downloading the OpenCore configuration file provided in this repository.
-
-### 2. Obtain the Necessary Kexts
-Download all the required kexts from the "Used Kexts" list provided earlier. Once downloaded, copy them to the following directory:
-EFI -> OC -> Kexts
-
-### 3. Download macOS Sonoma Recovery Environment
-Use the [macrecovery.py](https://github.com/acidanthera/OpenCorePkg/tree/master/Utilities/macrecovery) to download the macOS Sonoma 14.5 recovery environment.
-
-### 4. Generate Serial Number and UUID
-Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate a valid serial number and UUID.
-
-### 5. Edit the OpenCore Config
-Open the config.plist file using [ProperTree](https://github.com/corpnewt/ProperTree). Navigate to Root -> PlatformInfo -> Generic. Enter the serial number and UUID you generated in the previous step.
-
-### 6. Prepare the USB Drive
-Format a USB drive to FAT32, then copy the following to the drive:
-
-* The OpenCore configuration (both EFI and NVRAM folders)
-* The macOS Sonoma 14.5 recovery environment (com.apple.recovery.boot folder)
-
-### 7. Replace NootedRed.kext with WhateverGreen.kext
-Replace NootedRed.kext file with [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases). This is crucial for successfully booting into the recovery environment. Make new OC snapshot in [ProperTree](https://github.com/corpnewt/ProperTree) to reflect the change.
-
-### 8. Boot from USB and Format SSD
-Boot your machine from the USB drive. Once in the macOS recovery environment, format your target SSD to the APFS format using Disk Utility.
-
-### 9. Install macOS
-Begin the macOS installation on your freshly formatted SSD. If your system doesn’t have Wi-Fi support at this point, connect an Ethernet cable to ensure the recovery environment can download macOS files.
-
-### 10. System Reboots During Installation
-During the installation process, your machine will reboot multiple times. No user intervention is needed until the installation completes.
-
-### 11. Create a User Account
-After the macOS installation finishes, follow the setup process to create your user account.
-
-### 12 Enable iGPU Support
-To activate the integrated GPU (iGPU), replace WhateverGreen.kext with NootedRed.kext in your EFI folder. Again, make new OC snapshot in [ProperTree](https://github.com/corpnewt/ProperTree) to reflect the change.
-
-### 13. Reboot from USB
-Reboot the system from the USB drive. At this point, your iGPU should now be working.
-
-### 14. Boot Without the USB Drive
-To enable booting from the SSD without needing the USB drive, use MountEFI to mount the EFI partition of your SSD. Copy all files from the USB to the SSD’s EFI partition.
-
 
 ## Useful Software
 | Software | Description |
@@ -246,12 +197,12 @@ To enable booting from the SSD without needing the USB drive, use MountEFI to mo
 
 ## Legal Disclaimer
 
-This guide is provided solely for **educational and testing purposes**. The author does not condone or encourage any illegal activities, including but not limited to the violation of software license agreements, terms of service, or copyright laws. Building or using a Hackintosh — a non-Apple computer running macOS — may violate **Apple's End User License Agreement (EULA)** and could be illegal in certain jurisdictions.
+This material is provided solely for **educational and testing purposes**. The author does not condone or encourage any illegal activities, including but not limited to the violation of software license agreements, terms of service, or copyright laws. Building or using a Hackintosh — a non-Apple computer running macOS — may violate **Apple's End User License Agreement (EULA)** and could be illegal in certain jurisdictions.
 
-By following this guide, you understand that **you assume full responsibility** for any legal consequences, technical issues, or damages that may arise, including but not limited to violations of Apple's terms of service, potential breaches of applicable laws, and the invalidation of warranties. The author is not liable for any losses, damages, legal actions, or technical malfunctions resulting from the use of this guide.
+By following this material, you understand that **you assume full responsibility** for any legal consequences, technical issues, or damages that may arise, including but not limited to violations of Apple's terms of service, potential breaches of applicable laws, and the invalidation of warranties. The author is not liable for any losses, damages, legal actions, or technical malfunctions resulting from the use of this guide.
 
 The author explicitly **does not endorse or encourage** the illegal use of macOS or other software in any way that infringes upon intellectual property rights, terms of service, or other legal agreements. The guide is intended to be used for testing in environments where such use is permitted.
 
 Before proceeding, users are strongly advised to **consult with a legal professional** to understand the legality of building or using a Hackintosh in their specific region or jurisdiction. All actions undertaken by the reader are done at their **own risk and discretion**.
 
-By using this guide, you agree that any risks involved are **your own responsibility**, and you indemnify the author from any legal or financial consequences that may arise from your actions.
+By using this material, you agree that any risks involved are **your own responsibility**, and you indemnify the author from any legal or financial consequences that may arise from your actions.
