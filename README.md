@@ -201,7 +201,7 @@ This material is provided solely for **educational and testing purposes**. The a
 
 By following this material, you understand that **you assume full responsibility** for any legal consequences, technical issues, or damages that may arise, including but not limited to violations of Apple's terms of service, potential breaches of applicable laws, and the invalidation of warranties. The author is not liable for any losses, damages, legal actions, or technical malfunctions resulting from the use of this guide.
 
-The author explicitly **does not endorse or encourage** the illegal use of macOS or other software in any way that infringes upon intellectual property rights, terms of service, or other legal agreements. The guide is intended to be used for testing in environments where such use is permitted.
+The author explicitly **does not endorse or encourage** the illegal use of macOS or other software in any way that infringes upon intellectual property rights, terms of service, or other legal agreements. The material is intended to be used for testing in environments where such use is permitted.
 
 Before proceeding, users are strongly advised to **consult with a legal professional** to understand the legality of building or using a Hackintosh in their specific region or jurisdiction. All actions undertaken by the reader are done at their **own risk and discretion**.
 
